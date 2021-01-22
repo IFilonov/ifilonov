@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vladimir Kharlampidi - Front-end Developer</title>
+    <!-- Link our CSS stylesheet -->
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<main>
+    <header>
+        <!-- Header content with avatar and basic info -->
+    </header>
+    <section>
+        <h2>My Coding Activity & Stats</h2>
+
+        <codersrank-summary username="ifilonov" show-header="false"></codersrank-summary>
+
+        <codersrank-activity username="ifilonov" legend="false" labels tooltip step="5" ></codersrank-activity>
+
+        <codersrank-skills-chart
+                username="nolimits4web"
+                labels
+                tooltip
+                skills="JavaScript,CSS,Less,Vue,Svelte,TypeScript,CSS,HTML"
+                svg-width="1120"
+                svg-height="400"
+        ></codersrank-skills-chart>
+    </section>
+    <section>
+        <h2>Recent Projects</h2>
+
+        <codersrank-portfolio
+                username="ifilonov"
+                grid
+                company="false"
+        ></codersrank-portfolio>
+    </section>
+    <section>
+        <h2>Work Experience & Education</h2>
+
+        <codersrank-work-experience
+                username="ifilonov"
+                logos
+        ></codersrank-work-experience>
+
+        <codersrank-education
+                username="ifilonov"
+        ></codersrank-education>
+    </section>
+
+    <footer>
+        <!-- Generic footer copy -->
+    </footer>
+</main>
+<script src="https://unpkg.com/@codersrank/summary/codersrank-summary.min.js"></script>
+<script src="https://unpkg.com/@codersrank/activity/codersrank-activity.min.js"></script>
+<script src="https://unpkg.com/@codersrank/skills-chart/codersrank-skills-chart.min.js"></script>
+<script src="https://unpkg.com/@codersrank/portfolio/codersrank-portfolio.min.js"></script>
+<script src="https://unpkg.com/@codersrank/work-experience/codersrank-work-experience.min.js"></script>
+<script src="https://unpkg.com/@codersrank/education/codersrank-education.min.js"></script>
+</body>
+</html>
